@@ -1,0 +1,4 @@
+#xmovie n1=250 n2=250 cmap=sat loop=1 title="U1 - painel %g" <../test3D_1p/snapshot_u3.ad &
+
+xmovie n1=120 n2=120 cmap=sat loop=1 title="U1 - painel %g" <../test3D_1p/snapshot_u1.ad &
+

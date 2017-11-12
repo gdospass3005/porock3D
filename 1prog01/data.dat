@@ -1,0 +1,13 @@
+Dimensoes da malha (Nx,Ny,Nz) e n.camadas (nlayers):         120    120    120      2
+Discretizacao espacial (dx) [m]:                             0.5
+Tempo de registro por tiro (tmax) [s]:                      0.15
+Amostras gravadas por amostra de tempo (dt_effect):            1
+Numero de pontos de por comprimento de onda (G):            10.0
+Raio de insercao da fonte (r) [pontos da malha]:             3.0
+Numero de pontos da borda de absorcao (nb):                   10
+Coeficiente da borda de absorcao (F):                     0.0015
+Intervalo de amostragem (dt):                            0.00005
+Frequencia de pico da fonte (fpeak):                        75.0
+
+
+

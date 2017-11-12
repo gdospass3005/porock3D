@@ -1,0 +1,13 @@
+120
+120
+120
+120 
+1
+2
+
+ Nx,Ny,Nz,' = grid size in x,y and z'
+ Io,' = depth of the plane interface in grid units'
+ d1,d2,' = layers'
+
+120=sem interface
+90=com interface

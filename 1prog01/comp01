@@ -1,0 +1,23 @@
+rm -rf ../test3D_1p/*f90
+rm -rf ../test3D_1p/*f
+rm -rf ../test3D_1p/V*
+rm -rf ../test3D_1p/*inc
+rm -rf ../test3D_1p/*vo
+rm -rf ../test3D_1p/s*ad
+rm -rf ../test3D_1p/c*ad
+rm -rf ../test3D_1p/*dat
+rm -rf ../test3D_1p/*txt
+
+cp *.f90 ../test3D_1p/.
+cp *.f ../test3D_1p/.
+cp *.dat ../test3D_1p/.
+#cp ../model3D_1panel/*.ad ../test3D_1p/.
+
+cd ../test3D_1p/.
+
+f90 -o porock3D *.f90 *.f
+
+porock3D > saidas.txt
+
+more report.txt
+

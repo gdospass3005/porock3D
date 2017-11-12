@@ -1,0 +1,19 @@
+n. of shots (nshots):                                       1
+x position of 1st shot in grid units (nsmin_x):            60 
+y position of 1st shot in grid units (nsmin_y):            60
+z position of 1st shot in grid units (nsmin_z):            60
+x interval between two shots in grid units (dns_x):         1
+y interval between two shots in grid units (dns_y):         1
+z interval between two shots in grid units (dns_z):         1
+n. of geophones (x,y and z displacements) (nphones):       20
+x position of 1st geophone in grid units (npmin_x):        70
+y position of 1st geophone in grid units (npmin_y):        60
+z position of 1st geophone in grid units (npmin_z):        60
+x interval between two geophones in grid units (dps_x):     2
+y interval between two geophones in grid units (dps_y):     0
+z interval between two geophones in grid units (dps_z):     0
+shot to take snapshots (shot_to_save):                      1
+number of snapshots (nsnaps):                              30
+1st. snapshot (in time samples) (snapmin):                100
+time samples step between snapshots (dsnap):              100
+slice in y to take snapshots (yslice):                     60

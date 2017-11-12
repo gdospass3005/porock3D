@@ -1,0 +1,2 @@
+suaddhead ns=120 < ../test3D_1p/snapshot_u1.ad | sushw key=dt a=10000 |
+suwind key=tracl min=481 max=600 | supsimage cmap=gray >snap.ps

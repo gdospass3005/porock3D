@@ -1,0 +1,43 @@
+discretizacao espacial          =  1.0 m
+              temporal          =  0.2 ms
+freq. dominante da assinatura   =   15 hz
+raio de aplic. da fonte (explos)=   10 celas
+posicao vertical   da fonte     =  101 m
+posicao horizontal da fonte     =  100 m
+posicao vertic. dos receptores  =  101 m
+posicao horiz.  dos receptores  =  100 m
+increm. vertic. dos receptores  =    0 m
+increm. horiz.  dos receptores  =   15 m
+numero de receptores            =   10
+numero de camadas no modelo     =    2
+celas na borda de absorcao      =   50
+fator de absorcao               =0.025 %
+numero de "snapshots"           =    7
+tempos :    0.00    0.10    0.15    0.25
+            0.60    0.80    1.00
+
+|----------------------------------------------------------|
+|       Camada #1        | porosidade   =       16 %       |
+|       (folhelho)       | perm.        =       20 md      |
+| - - - - - - - - - - - -|- - - - - - - - - - - - - - - - -|
+|                        | velocidade P =     2500 m/s     |
+|   parametros do solido | velocidade S =     1390 m/s     |
+|                        | densidade    =    2.678 g/cm3   |
+| - - - - - - - - - - - -|- - - - - - - - - - - - - - - - -|
+|                        | velocidade P =     1500 m/s     |
+|   parametros do fluido | densidade    =    1.000 g/cm3   |
+|                        | viscosidade  =    1.000 cP      |
+|----------------------------------------------------------|
+
+|----------------------------------------------------------|
+|       Camada #2        | porosidade   =       19 %       |
+|       (arenito)        | perm.        =      400 md      |
+| - - - - - - - - - - - -|- - - - - - - - - - - - - - - - -|
+|                        | velocidade P =     3700 m/s     |
+|   parametros do solido | velocidade S =     2055 m/s     |
+|                        | densidade    =    2.628 g/cm3   |
+| - - - - - - - - - - - -|- - - - - - - - - - - - - - - - -|
+|                        | velocidade P =     1450 m/s     |
+|   parametros do fluido | densidade    =     .880 g/cm3   |
+|                        | viscosidade  =  180.000 cP      |
+|----------------------------------------------------------|
